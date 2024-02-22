@@ -1,0 +1,108 @@
+.navigation {
+    display: flex;
+    gap: 53px;
+    color: white;
+    display: none;
+    font-size: 32px;
+    font-family: 'gantium book', sans-serif;
+}
+header {
+    background-image: url('../assets/images/background-image-480.png');
+    height: 696px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-main {   
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 16px
+}
+.main-paragraph {
+    position: absolute;
+    top: 508px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 83px;
+    padding: 0 16px;
+    font-family: 'gantium book', sans-serif;
+}
+.article-1 {
+    height: 994px;
+    background-color: #2A2626;
+    position: relative;
+}
+.article-heading {
+    display: flex;
+    color: white;
+    font-size: 36px;
+    font-family: 'gantium book', sans-serif;
+    justify-content: center;
+    padding: 48px;
+}
+.div-480 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 16px;
+}
+.div-834 {
+    display: flex;
+    padding:0 24px;
+    gap: 40px;
+    display: none;
+}
+.div-1024 {
+    display: flex;
+    padding: 0 40px;
+    display: none;
+}
+.div-1440 {
+    padding: 0 70px;
+    display: flex;
+    display: none;
+}
+.div-1440 :nth-child(2) {
+    margin: 0 40px;
+}
+.div-1024 :nth-child(2) {
+    margin: 0 40px;
+}
+.article-2 {
+    background-color: #0B0A0A;
+    padding: 45px 16px;
+    color: white;
+    font-family: 'gantium book', sans-serif;
+    line-height: 24px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ABOUT {
+    padding-bottom: 32px;
+}
+footer {
+    background-color: #2A2626;
+    height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.instagram {
+    width: 60px;
+    height: 60px;
+}
+.logo-atthebottom {
+    display: none;
+    justify-content: center;
+    padding: 0 16px;
+}
+
